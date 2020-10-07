@@ -13,6 +13,6 @@ public class spin : MonoBehaviour
     void Update()
     {
 	//spin the boi
-        transform.Rotate(Vector3.up * spinSpeed, Space.Self);
+        //transform.Rotate(Vector3.up * spinSpeed, Space.Self);
     }
 }
