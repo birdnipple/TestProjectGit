@@ -7,15 +7,12 @@ public class spin : MonoBehaviour
     [SerializeField]
     private float spinSpeed;
     
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+ 
 
     // Update is called once per frame
     void Update()
     {
+	//spin the boi
         transform.Rotate(Vector3.up * spinSpeed, Space.Self);
     }
 }
